@@ -1,0 +1,28 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "Um framework css basico para aulas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoLeao2018/hcw-css.git"
+  },
+  "keywords": [
+    "framework",
+    "css",
+    "js"
+  ],
+  "author": "Gustavo Leão Nogueira de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoLeao2018/hcw-css/issues"
+  },
+  "homepage": "https://github.com/GustavoLeao2018/hcw-css#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "sass": "^1.17.3"
+  }
+}
