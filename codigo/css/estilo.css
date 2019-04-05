@@ -636,42 +636,43 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   text-align: justify;
+  text-indent: 25px;
 }
 
 nav {
   padding: 16px;
-  background-color: #009688;
+  background-color: #343A40;
   color: #fff;
+  position: sticky;
+  top: 0;
 }
 
 header {
+  margin: 16px;
   padding: 16px;
-  background-color: #009688;
-  color: #fff;
+  background-color: #ECEEEF;
+  color: #292B2C;
+  border-radius: 7px;
 }
 
 section {
   padding: 16px;
-  background-color: #ddffff;
-  color: #000;
 }
 
 article {
   padding: 16px;
-  background-color: #ddffff;
-  color: #000;
+  border-bottom: 1px solid #000;
 }
 
 aside {
   padding: 16px;
-  background-color: #ddffff;
-  color: #000;
 }
 
 footer {
   padding: 16px;
-  background-color: #009688;
-  color: #fff;
+  background-color: #F5F5F5;
+  color: #000;
+  border: 1px solid gray;
 }
 
 .container {

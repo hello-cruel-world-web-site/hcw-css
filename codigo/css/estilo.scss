@@ -34,6 +34,10 @@ $pale-green: #ddffdd;
 $pale-yellow: #ffffcc;
 $pale-blue: #ddffff;
 $border-gray: #ccc;
+$navbar-black: #343A40;
+$footer-gray: #F5F5F5;
+$header-gray: #ECEEEF;
+$header-black: #292B2C;
 
 .amber, .amber-hover:hover{ 
     background-color: $amber; 
@@ -531,13 +535,31 @@ $border-gray: #ccc;
 }
 
 h1, h2, h3, h4, h5, h6 { text-align: center; }
-p { text-align: justify; }
-nav     { padding: 16px; background-color: $teal; color: $white;       }
-header  { padding: 16px; background-color: $teal; color: $white;       }
-section { padding: 16px; background-color: $pale-blue; color: $black; }
-article { padding: 16px; background-color: $pale-blue; color: $black; }
-aside   { padding: 16px; background-color: $pale-blue; color: $black; }
-footer  { padding: 16px; background-color: $teal; color: $white;       }
+p { text-align: justify; text-indent: 25px; }
+nav     { 
+    padding: 16px; 
+    background-color: 
+    $navbar-black; 
+    color: $white;    
+    position: sticky;
+    top: 0;   
+}
+header  { 
+    margin: 16px;
+    padding: 16px; 
+    background-color: $header-gray; 
+    color: $header-black;   
+    border-radius: 7px;    
+}
+section { padding: 16px;  }
+article { padding: 16px; border-bottom: 1px solid $black; }
+aside   { padding: 16px;  }
+footer  { 
+    padding: 16px; 
+    background-color: $footer-gray; 
+    color: $black;
+    border: 1px solid gray;   
+}
 
 
 
