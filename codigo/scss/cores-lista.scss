@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 $amber:  #ffc107;
 $aqua: #00ffff;
 $blue: #2196F3;
@@ -39,26 +34,4 @@ $footer-gray: #F5F5F5;
 $header-gray: #ECEEEF;
 $header-black: #292B2C;
 
-@import 'color';
-@import 'text';
-@import 'border';
-
-
-
-
-
-
-
-
-
-.container { padding-left: 16px; padding-right: 16px; }
-.panel     { margin-top: 16px;   margin-bottom: 16px; }
-
-
-
-.card   { box-shadow: 2px 2px 2px $black; }
-.card-2 { box-shadow: 2px 2px 2px $black; }
-.card-4 { box-shadow: 4px 4px 4px $black; }
-
-.icon { width: 22px; height: 22px; }
 
