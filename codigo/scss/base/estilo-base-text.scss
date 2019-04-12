@@ -18,10 +18,7 @@ body {
     font-size: $font-medium;
 }
 
-.text-center  { text-align: center;  }
-.text-left    { text-align: left;    }
-.text-right   { text-align: right;   }
-.text-justify { text-align: justify; }
+
 
 .font-tiny     { font-size: $font-tiny;     }
 .font-small    { font-size: $font-small;    }
@@ -42,3 +39,8 @@ h6 { font-size: $font-h6; }
 h1, h2, h3, h4, h5, h6 { text-align: center; }
 p { text-align: justify; text-indent: 30px;  }
 
+.text-center  { text-align: center;  }
+.text-left    { text-align: left;    }
+.text-right   { text-align: right;   }
+.text-justify { text-align: justify; }
+.text-not-indent { text-indent: none; }
