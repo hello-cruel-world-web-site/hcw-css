@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
 }
@@ -13,3 +13,5 @@
 @import 'estilo-base-aside.scss';
 @import 'estilo-base-footer.scss';
 @import 'estilo-base-icons.scss';
+@import 'estilo-base-card.scss';
+@import 'estilo-base-grid-flex.scss';
